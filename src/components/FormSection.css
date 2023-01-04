@@ -1,0 +1,50 @@
+.formSection{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.formSection-label{
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+    color: rgb(78, 116, 219)
+}
+.formSection-input{
+    border: 0px;
+    border-radius: 6px;
+    background-color: rgb(78, 116, 219);
+    font-family: Ubuntu;
+    padding: 10px;
+    color: white;
+    margin-bottom: 5px;
+    border: 1px solid rgb(78, 116, 219);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.formSection-input:hover {
+    background-color: white;
+    color: rgb(78, 116, 219);
+    border: 1px solid rgb(78, 116, 219);
+}
+input::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  }
+.formSection-error{
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+    margin-bottom: 2px;
+}
+.formSection-input:focus {
+    outline: none;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.4; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
